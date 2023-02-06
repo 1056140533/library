@@ -13,7 +13,8 @@ files.forEach(( file) => {
             id:article,
             type:file,
             title:$('h1').text(),
-            time:$('p.time').text()
+            time:$('p.time').text(),
+            about:$('blockquote').text()
         })
     })
 })

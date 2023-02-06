@@ -29,7 +29,7 @@ fs.writeFile('./article.json', JSON.stringify(content), function(err) {
     if (err) {
         return console.log(err);
     }
-    console.log('文件创建成功，地址：');
+    console.log('文件创建成功');
 });
 
 

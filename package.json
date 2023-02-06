@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "whb": "./release.sh"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "marked": "^4.2.12"
